@@ -1,0 +1,124 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(44, 48, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 17px;
+
+}
+
+.imagen img {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 ;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+.cuadro-principal .imagen {
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.cuadro-principal .formulario {
+    width: 50%;
+}
+
+.cuadro-principal {
+    padding: 20px 25px;
+    display: flex;
+    width: 900px;
+    height: 600px;
+    background: whitesmoke;
+    border-radius: 20px;
+
+}
+
+.cuadro-principal h1 {
+    padding: 55px 30px 5px 30px;
+    text-align: left;
+    font-size: 45px;
+    font-weight: bold;
+    
+
+}
+
+.cuadro-principal .text {
+    padding: 30px;
+
+}
+
+.cuadro-principal .checklist {
+    padding: 0 30px 5px 30px;
+    
+}
+
+.cuadro-principal .checklist label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    
+}
+
+.emailaddress {
+    padding: 30px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.input-box {
+    padding: 0 0px 15px 30px;
+
+}
+
+.input-box input {
+    padding: 15px;
+    width: 91%;
+    border-color: rgba(128, 128, 128, 0.545);
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.btn button {
+    padding: 20px;
+    border-radius: 6px;
+    width: 90%;
+    background-color: rgb(52, 56, 88);
+    color: #fff;
+    border: none;
+    font-size: 18px;cursor: pointer;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+
+
